@@ -25,3 +25,6 @@
 
 (defun cook (expression)
   (cc:cook *client* expression))
+
+(defun list (&rest elements)
+  (apply #'cc:list *client* elements))
