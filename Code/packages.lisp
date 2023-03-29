@@ -23,7 +23,7 @@
    #:raw
    #:cook))
 
- (defpackage #:clearcut
+(defpackage #:clearcut
   (:use #:common-lisp)
   (:local-nicknames (#:cc #:clearcut-customization))
   (:shadow
@@ -36,6 +36,7 @@
    #:list
    #:mapcar)
   (:export
+   #:*client*
    #:first
    #:rest
    #:atom
