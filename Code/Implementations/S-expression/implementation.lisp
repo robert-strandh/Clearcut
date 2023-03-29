@@ -17,3 +17,9 @@
 
 (defmethod cc:cons ((client client) first rest)
   (cons first rest))
+
+(defmethod cc:raw ((client client) expression)
+  expression)
+
+(defmethod cc:cook ((client client) expression)
+  expression)
