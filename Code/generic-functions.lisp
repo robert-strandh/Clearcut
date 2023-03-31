@@ -2,6 +2,8 @@
 
 (defgeneric first (client expression))
 
+(defgeneric second (client expression))
+
 (defgeneric rest (client expression))
 
 (defgeneric atom (client expression))
