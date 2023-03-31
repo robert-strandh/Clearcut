@@ -18,3 +18,6 @@
                  (cons (first elements)
                        (aux (rest elements))))))
     (aux elements)))
+
+(defmethod cc:second (client expression)
+  (first (rest expression)))
