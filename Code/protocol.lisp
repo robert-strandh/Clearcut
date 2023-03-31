@@ -8,6 +8,9 @@
 (defun first (expression)
   (cc:first *client* expression))
 
+(defun second (expression)
+  (cc:second *client* expression))
+
 (defun rest (expression)
   (cc:rest *client* expression))
 
