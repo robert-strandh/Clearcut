@@ -4,6 +4,7 @@
   (:use #:common-lisp)
   (:shadow
    #:first
+   #:second
    #:rest
    #:atom
    #:nil
@@ -13,6 +14,7 @@
    #:mapcar)
   (:export
    #:first
+   #:second
    #:rest
    #:atom
    #:nil
@@ -28,6 +30,7 @@
   (:local-nicknames (#:cc #:clearcut-customization))
   (:shadow
    #:first
+   #:second
    #:rest
    #:atom
    #:nil
@@ -38,6 +41,7 @@
   (:export
    #:*client*
    #:first
+   #:second
    #:rest
    #:atom
    #:nil
@@ -54,6 +58,7 @@
   (:shadowing-import-from
    #:clearcut
    #:first
+   #:second
    #:rest
    #:atom
    #:nil
